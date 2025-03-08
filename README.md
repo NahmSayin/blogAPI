@@ -1,5 +1,3 @@
-### **1. Brief README for Blog API**
-
 ```markdown
 # Blog API
 
