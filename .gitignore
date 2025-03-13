@@ -1,0 +1,68 @@
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+*.so
+*.pyo
+
+# Virtual environment
+venv/
+env/
+
+# Django secret keys (if stored in a .env file)
+.env
+*.env
+
+# Database files
+*.sqlite3
+db.sqlite3
+
+# Logs
+*.log
+logs/
+
+# Static and media files (if generated dynamically)
+staticfiles/
+media/
+
+# Migrations (optional, but useful to prevent conflicts in teams)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python dependency files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore compiled translation files
+*.mo
+
+# Jupyter Notebook checkpoints (if using Jupyter)
+.ipynb_checkpoints/
+
+# Coverage and test-related files
+.coverage
+htmlcov/
+*.cover
+*.py,cover
+nosetests.xml
+coverage.xml
+*.lcov
+
+# Docker & Deployment
+docker-compose.override.yml
+*.pem  # Private keys
+
+# Node-related (if using React or other frontend tools)
+node_modules/
+npm-debug.log
+yarn.lock
+package-lock.json
+
+# Celery beat scheduler files (if using Celery)
+celerybeat-schedule
+celerybeat.pid
